@@ -7,6 +7,7 @@ const prettierParsers = htmlParsers as any;
 
 export const parsers = {
   html: wrapParser(prettierParsers.html),
+  lwc: wrapParser(prettierParsers.lwc),
   vue: wrapParser(prettierParsers.vue),
   angular: wrapParser(prettierParsers.angular),
 };
